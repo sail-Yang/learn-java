@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73e1dd0c-5c02-4885-a0b9-8a88b3a397d4" name="Changes" comment="feature：继承破坏封装" />
+    <list default="true" id="73e1dd0c-5c02-4885-a0b9-8a88b3a397d4" name="Changes" comment="feature：面向对象">
+      <change afterPath="$PROJECT_DIR$/learn-enum/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-enum/src/main/java/com/sailyang/BaseSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-enum/src/main/java/com/sailyang/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-enum/src/test/java/EnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object-oriented/target/test-classes/extend_destroy/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/object-oriented/target/test-classes/extend_destroy/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -44,10 +55,24 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.extend_destroy.MainTest">
+  <component name="RunManager" selected="Application.EnumTest">
+    <configuration name="BaseEnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaseEnumTest" />
+      <module name="learn-enum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Case1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="case1.Case1Test" />
       <module name="object-oriented" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EnumTest" />
+      <module name="learn-enum" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,22 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Case1Test.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="object-oriented" />
-      <option name="PACKAGE_NAME" value="case1" />
-      <option name="MAIN_CLASS_NAME" value="case1.Case1Test" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumTest" />
+        <item itemvalue="Application.BaseEnumTest" />
         <item itemvalue="Application.extend_destroy.MainTest" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.Case1Test" />
-        <item itemvalue="JUnit.Case1Test.main" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +126,7 @@
       <updated>1723458475703</updated>
       <workItem from="1723458477512" duration="1148000" />
       <workItem from="1723684633251" duration="2867000" />
-      <workItem from="1724067392412" duration="404000" />
+      <workItem from="1724067392412" duration="1085000" />
     </task>
     <task id="LOCAL-00001" summary="feature：init">
       <created>1723458532999</created>
@@ -140,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723687628077</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feature：面向对象">
+      <created>1724068406906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724068406906</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +185,7 @@
     <MESSAGE value="feature：父类构造方法" />
     <MESSAGE value="feature：protected和模板方法" />
     <MESSAGE value="feature：继承破坏封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature：继承破坏封装" />
+    <MESSAGE value="feature：面向对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature：面向对象" />
   </component>
 </project>
