@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="learn-enum" />
+        <module name="learn-template-method" />
         <module name="object-oriented" />
       </profile>
     </annotationProcessing>
