@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73e1dd0c-5c02-4885-a0b9-8a88b3a397d4" name="Changes" comment="feature：面向对象 ： Enum">
-      <change afterPath="$PROJECT_DIR$/learn-template-method/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-template-method/src/main/java/com/sailyang/caffine/CaffeineBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-template-method/src/main/java/com/sailyang/caffine/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-template-method/src/main/java/com/sailyang/caffine/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-template-method/src/test/java/CaffineTemplateMethodTest.java" afterDir="false" />
+    <list default="true" id="73e1dd0c-5c02-4885-a0b9-8a88b3a397d4" name="Changes" comment="feature：模板方法 ： 泡茶和咖啡示例">
+      <change afterPath="$PROJECT_DIR$/learn-nio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-nio/src/main/java/com/sailyang/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-nio/src/test/java/FileTransferTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -42,20 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/Java/Project/learn-java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Project/Java/Project/learn-java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.5011494",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
-  <component name="RunManager" selected="Application.CaffineTemplateMethodTest">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Java\Project\learn-java\learn-nio\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FileTransferTest">
     <configuration name="BaseEnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaseEnumTest" />
       <module name="learn-enum" />
@@ -77,25 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="protect.MainTest" />
-      <module name="object-oriented" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="protect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="FileTransferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileTransferTest" />
+      <module name="learn-nio" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="extend_destroy.MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extend_destroy.MainTest" />
-      <module name="object-oriented" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sailyang.Main" />
+      <module name="learn-nio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extend_destroy.*" />
+          <option name="PATTERN" value="com.sailyang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileTransferTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CaffineTemplateMethodTest" />
         <item itemvalue="Application.EnumTest" />
         <item itemvalue="Application.BaseEnumTest" />
-        <item itemvalue="Application.extend_destroy.MainTest" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +126,8 @@
       <workItem from="1723684633251" duration="2867000" />
       <workItem from="1724067392412" duration="1995000" />
       <workItem from="1724470301533" duration="8000" />
-      <workItem from="1724662333831" duration="498000" />
+      <workItem from="1724662333831" duration="1644000" />
+      <workItem from="1724750748040" duration="3592000" />
     </task>
     <task id="LOCAL-00001" summary="feature：init">
       <created>1723458532999</created>
@@ -172,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724069174622</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feature：模板方法 ： 泡茶和咖啡示例">
+      <created>1724663072327</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724663072327</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +202,7 @@
     <MESSAGE value="feature：继承破坏封装" />
     <MESSAGE value="feature：面向对象" />
     <MESSAGE value="feature：面向对象 ： Enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature：面向对象 ： Enum" />
+    <MESSAGE value="feature：模板方法 ： 泡茶和咖啡示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature：模板方法 ： 泡茶和咖啡示例" />
   </component>
 </project>

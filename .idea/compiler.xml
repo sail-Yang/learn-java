@@ -7,9 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="learn-enum" />
-        <module name="learn-template-method" />
         <module name="object-oriented" />
+        <module name="learn-nio" />
+        <module name="learn-template-method" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learn-io" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
