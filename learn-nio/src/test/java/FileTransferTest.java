@@ -6,12 +6,13 @@ import java.nio.channels.FileChannel;
 /**
  * @author yangfan
  * @version 1.0
- * @description: 对比NIO和BIO在操作文件上的速度差异
+ * @description: 对比NIO和BIO在操作文件上的速度差异，可以发现小文件NIO快，大文件反而BIO快，因为NIO的主要使用场景是网络
  * @date 2024/8/27 17:33
  */
 public class FileTransferTest {
     /*
      * @description: 使用BIO的方式传输文件
+     *
      */
     private long transferFileWithBIO(File source, File dest) throws IOException {
         long startTime = System.currentTimeMillis();
