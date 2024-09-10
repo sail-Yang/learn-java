@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73e1dd0c-5c02-4885-a0b9-8a88b3a397d4" name="Changes" comment="feature：nio ： 比较NIO和BIO传输文件速度">
-      <change afterPath="$PROJECT_DIR$/learn-bio/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-bio/src/main/java/com/sailyang/socket/BioServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-nio/src/test/java/network/BIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-nio/src/test/java/network/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-nio/src/test/java/network/NIOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="73e1dd0c-5c02-4885-a0b9-8a88b3a397d4" name="Changes" comment="feature：bio ： bio服务器">
+      <change afterPath="$PROJECT_DIR$/learn-nio/src/main/java/com/sailyang/netty/ByteBufferUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-nio/src/test/java/ByteBufferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-nio/src/test/java/nio/TranslateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-nio/src/test/resources/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-nio/src/test/java/FileTransferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-nio/src/test/java/FileTransferTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-nio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-nio/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,21 +56,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\Java\Project\learn-java\learn-nio\src\test\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BioServer">
-    <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.BIOServer" />
-      <module name="learn-nio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TranslateTest">
     <configuration name="BioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sailyang.socket.BioServer" />
       <module name="learn-bio" />
@@ -88,12 +74,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.Client" />
+    <configuration name="ByteBufferTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ByteBufferTest" />
+      <module name="learn-nio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByteBufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.ByteBufferTest" />
       <module name="learn-nio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.*" />
+          <option name="PATTERN" value="nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.NIOServer" />
+    <configuration name="TranslateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.TranslateTest" />
       <module name="learn-nio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="network.*" />
+          <option name="PATTERN" value="nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BioServer" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.NIOServer" />
-        <item itemvalue="Application.BIOServer" />
+        <item itemvalue="Application.TranslateTest" />
+        <item itemvalue="Application.ByteBufferTest (1)" />
         <item itemvalue="Application.FileTransferTest" />
+        <item itemvalue="Application.ByteBufferTest" />
+        <item itemvalue="Application.BioServer" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +142,8 @@
       <workItem from="1724662333831" duration="1644000" />
       <workItem from="1724750748040" duration="5527000" />
       <workItem from="1724756295550" duration="931000" />
-      <workItem from="1724829099403" duration="1325000" />
+      <workItem from="1724829099403" duration="2838000" />
+      <workItem from="1725930644914" duration="2398000" />
     </task>
     <task id="LOCAL-00001" summary="feature：init">
       <created>1723458532999</created>
@@ -207,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724754372438</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feature：nio ： NIO和BIO网络速度比较">
+      <created>1724830640409</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724830640409</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feature：bio ： bio服务器">
+      <created>1724830655159</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724830655159</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +241,8 @@
     <MESSAGE value="feature：面向对象 ： Enum" />
     <MESSAGE value="feature：模板方法 ： 泡茶和咖啡示例" />
     <MESSAGE value="feature：nio ： 比较NIO和BIO传输文件速度" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature：nio ： 比较NIO和BIO传输文件速度" />
+    <MESSAGE value="feature：nio ： NIO和BIO网络速度比较" />
+    <MESSAGE value="feature：bio ： bio服务器" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature：bio ： bio服务器" />
   </component>
 </project>
